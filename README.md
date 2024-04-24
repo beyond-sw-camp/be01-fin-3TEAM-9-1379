@@ -119,3 +119,59 @@
 ## 🚀 시스템 아키텍처
 
 ![프로젝트 아키텍처(전체) drawio](https://github.com/beyond-sw-camp/be01-fin-3TEAM-9-1379/assets/142721325/5e1a7a1e-83bb-4d6c-83f0-c8ac17a0e974)
+
+## 🚀 GitFlow 전략
+
+<details>
+  <summary> 자세히 </summary>
+  
+# Git 브랜치전략 및 커밋 컨벤션 설정
+
+## 1. 브랜치 전략 
+
+ <img src="https://github.com/9-1379/T3-R0-Document/assets/148875683/de1e7ca6-a81f-4b90-89ef-f2827c426db7" width="700px">
+
+### - dev <br/>
+: 각자 feature 브랜치 생성 - 브랜치 이름은 wbs 번호로 네이밍 할 것.<br/>
+<br/>
+
+### - feature <br/>
+: 풀리퀘 생성하여 커밋할 것. <br/>
+: merge 필요할 경우 TL 에게 최종 컨펌 후 가능.<br/>
+<br/>
+
+### - release <br/>
+: feature브랜치가 모두 dev에 병합 된 후 생성.<br/>
+: 배포를 위한 최종 버그 수정  <br/>
+: QA / Test 진행<br/>
+: 모든 과정 완료 후 main 브랜치와 병합<br/>
+: dev 브랜치와 병합<br/>
+<br/>
+
+### - main <br/>
+: 버전 태그 생성.<br/>
+: 배포 !<br/>
+
+
+## 2. 커밋 컨벤션 정의
+
+| 태그 종류 |설명|
+-- | --
+Add | 기능 추가
+Fix | 버그 고친 경우
+Docs | 문서 수정 - 문서 파일에만 / 코드 x
+Refactor | 코드 리펙토링
+Test | 테스트 코드
+Remove | 코드 삭제시
+Modify | 코드 수정시
+
+<br/>
+
+**커밋 예시)** <br/>
+- [Add] 코드 기능 추가 <br/>
+- [Docs] 리드미 파일 수정 
+
+</details>
+
+## 프로젝트 내 이미지 출처
+<a href="https://kr.freepik.com/free-vector/watercolor-emoticon-design-element-with-diverse-feelings-in-doodle-style-set_16447883.htm#query=%EC%96%BC%EA%B5%B4%20%ED%91%9C%EC%A0%95&position=41&from_view=keyword&track=ais&uuid=dd24a92f-97ed-4ed9-b52f-13af130d659c">작가 rawpixel.com</a> 출처 Freepik
