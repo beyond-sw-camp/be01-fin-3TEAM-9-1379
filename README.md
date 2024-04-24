@@ -1,4 +1,6 @@
+<div align="center">
 <img src="https://github.com/9-13579/T3-R0-Document/assets/148875683/e10f85ce-6f95-436f-bf73-3cc874960234" width="700px">
+</div>
 
 ## 🌐 Be01-fin-3TEAM-9-1379
 **- 프로젝트 기간:** 2024.03.04 ~ 2024.04.25
@@ -8,6 +10,9 @@
 ## 📝 프로젝트 소개
 #### : 게임적 요소를 더한 혁신적인 인사관리 시스템 개발
 혁신적인 인사관리 시스템을 만들기 위해 기존의 인사관리 시스템에 배지제도를 도입하여 직원들의 다양한 성과를 인정하고, 노력을 독려하여 조직 참여 및 동기부여를 증진시키는 것을 목표로 합니다. 
+
+![image](https://github.com/beyond-sw-camp/be01-fin-3TEAM-9-1379/assets/142721325/cd7cd899-5096-494d-8cde-8e348d51d209)
+
 
 
 <br/>
@@ -117,13 +122,16 @@
 </br>
 
 ## 🚀 시스템 아키텍처
-
+<details>
+  <summary>✔️ 아키텍처 확인하기</summary>
+  
 ![프로젝트 아키텍처(전체) drawio](https://github.com/beyond-sw-camp/be01-fin-3TEAM-9-1379/assets/142721325/5e1a7a1e-83bb-4d6c-83f0-c8ac17a0e974)
+</details>
 
 ## 🚀 GitFlow 전략
 
 <details>
-  <summary> 자세히 </summary>
+  <summary> ✔️ 전략보기 </summary>
   
 # Git 브랜치전략 및 커밋 컨벤션 설정
 
@@ -171,6 +179,36 @@ Modify | 코드 수정시
 - [Add] 코드 기능 추가 <br/>
 - [Docs] 리드미 파일 수정 
 
+</details>
+
+## 🚀 Main Feature
+
+<details>
+  <summary> ✔️ 배지 부여 관리 </summary></br>
+  - Z세대: 1995~2008년 출생자 </br>
+  - Y세대: 1980~1994년 출생자 </br>
+  - X세대: 1964~1979년 출생자 </br>
+  - 귀여운건 나도 알아: 입사 후 6개월 이내 </br>
+  - 회사 지박령: 전 주 야근 3번 이상 (야근 기준 : 당일 PM 7시~ 익일 AM 6시) </br>
+  - 전설속의 그대: 입사일로부터 10년 </br>
+  - 워라벨 마스터: 한해 연차 80% 사용 </br>
+  - 도비는 자유에요: 연차 발생 시 배지 부여 </br>
+</details>
+<details>
+  <summary> ✔️ 연차 관리 </summary></br>
+  - 관리자: 전체 직원 연차 부여/삭제</br></br>
+  - 사용자: 연차 신청 / 내역 확인
+</details>
+<details>
+  <summary> ✔️ 인사 정보 조회 </summary></br>
+  - 관리자: 전체 직원 조회/추가/퇴직</br></br>
+  - 사용자: 임직원 배지 조회
+</details>
+<details>
+  <summary> ✔️ 근태 관리 </summary></br>
+  - 관리자: 근태 현황 조회/검색</br></br>
+  - 사용자: 임직원 출근/퇴근
+  
 </details>
 
 ## 프로젝트 내 이미지 출처
